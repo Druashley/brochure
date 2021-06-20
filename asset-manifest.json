@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/brochure/static/css/main.d14f772c.chunk.css",
-    "main.js": "/brochure/static/js/main.442bdd6e.chunk.js",
-    "main.js.map": "/brochure/static/js/main.442bdd6e.chunk.js.map",
+    "main.css": "/brochure/static/css/main.bbdfc37b.chunk.css",
+    "main.js": "/brochure/static/js/main.4db52ec7.chunk.js",
+    "main.js.map": "/brochure/static/js/main.4db52ec7.chunk.js.map",
     "runtime-main.js": "/brochure/static/js/runtime-main.42a27f46.js",
     "runtime-main.js.map": "/brochure/static/js/runtime-main.42a27f46.js.map",
     "static/js/2.9ba7a994.chunk.js": "/brochure/static/js/2.9ba7a994.chunk.js",
     "static/js/2.9ba7a994.chunk.js.map": "/brochure/static/js/2.9ba7a994.chunk.js.map",
     "index.html": "/brochure/index.html",
-    "static/css/main.d14f772c.chunk.css.map": "/brochure/static/css/main.d14f772c.chunk.css.map",
+    "static/css/main.bbdfc37b.chunk.css.map": "/brochure/static/css/main.bbdfc37b.chunk.css.map",
     "static/js/2.9ba7a994.chunk.js.LICENSE.txt": "/brochure/static/js/2.9ba7a994.chunk.js.LICENSE.txt",
     "static/media/Lofts.594107a5.jpg": "/brochure/static/media/Lofts.594107a5.jpg",
     "static/media/Ramps.384f7f31.jpg": "/brochure/static/media/Ramps.384f7f31.jpg",
     "static/media/Shelves.3fec4aef.jpg": "/brochure/static/media/Shelves.3fec4aef.jpg",
     "static/media/Windows.c261e864.jpg": "/brochure/static/media/Windows.c261e864.jpg",
     "static/media/color.766c48be.jpg": "/brochure/static/media/color.766c48be.jpg",
+    "static/media/colorFive.a0093cc5.jpg": "/brochure/static/media/colorFive.a0093cc5.jpg",
+    "static/media/colorFour.ce576345.jpg": "/brochure/static/media/colorFour.ce576345.jpg",
+    "static/media/colorThree.6fdc12f0.jpg": "/brochure/static/media/colorThree.6fdc12f0.jpg",
+    "static/media/colortwo.04b12d73.jpg": "/brochure/static/media/colortwo.04b12d73.jpg",
     "static/media/deck.7aeeda0a.jpg": "/brochure/static/media/deck.7aeeda0a.jpg",
     "static/media/doors.6ed1be29.jpg": "/brochure/static/media/doors.6ed1be29.jpg",
     "static/media/flowerboxes.98f2515a.jpg": "/brochure/static/media/flowerboxes.98f2515a.jpg",
@@ -27,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.42a27f46.js",
     "static/js/2.9ba7a994.chunk.js",
-    "static/css/main.d14f772c.chunk.css",
-    "static/js/main.442bdd6e.chunk.js"
+    "static/css/main.bbdfc37b.chunk.css",
+    "static/js/main.4db52ec7.chunk.js"
   ]
 }
