@@ -1,3 +1,8 @@
+import colorTwo from "./imgs/colortwo.jpg";
+import colorThree from "./imgs/colorThree.jpg";
+import colorFour from "./imgs/colorFour.jpg";
+import colorFive from "./imgs/colorFive.jpg";
+
 export default function productDetailData(product) {
   const blankImgSrc = "https://dummyimage.com/720x600/F3F4F7/8693ac";
 
@@ -10,25 +15,25 @@ export default function productDetailData(product) {
         secondParagraph: "Color match your house or color it anyway you want.",
         pictures: [
           {
-            imgUrl: blankImgSrc,
+            imgUrl: colorTwo,
             phrase:
               "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
             id: 1,
           },
           {
-            imgUrl: blankImgSrc,
+            imgUrl: colorThree,
             phrase:
               "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
             id: 2,
           },
           {
-            imgUrl: blankImgSrc,
+            imgUrl: colorFour,
             phrase:
               "Duis aute irure dolor in Duis aute irure dolor in  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
             id: 3,
           },
           {
-            imgUrl: blankImgSrc,
+            imgUrl: colorFive,
             phrase:
               "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
             id: 4,

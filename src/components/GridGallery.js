@@ -23,7 +23,7 @@ export default function GridGallery({ images }) {
           <VisibilitySensor
             key={index}
             partialVisibility={true}
-            offset={{ bottom: 25 }}
+            offset={{ bottom: -45 }}
             onChange={(isVisible) => imageVisibleChange(index, isVisible)}
           >
             <GridGalleryCard
