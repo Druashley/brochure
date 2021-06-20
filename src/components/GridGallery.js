@@ -17,7 +17,7 @@ export default function GridGallery({ images }) {
   };
 
   return (
-    <div className="grid grid-cols-2 gap-1 md:w-1/2 mx-auto pt-5">
+    <div className="grid grid-cols-2 gap-1 sm:w-2/3 md:w-1/2 mx-auto pt-5">
       {images &&
         images.map((shed, index) => (
           <VisibilitySensor
@@ -47,16 +47,16 @@ function GridGalleryCard({ imageUrl, show, imageText, url }) {
 
   return (
     <div
-      className={`relative transition ease-in duration-300 transform ${
+      className={`relative transition ease-in duration-300 transform  ${
         show ? "" : "translate-y-16 opacity-0"
       }`}
     >
       <div
-        className="absolute inset-0 z-10 flex transition duration-200 ease-in hover:opacity-0"
+        className="absolute inset-0 z-10 flex transition duration-200 ease-in hover:opacity-0 "
         onClick={() => displayProductDetail(url)}
       >
         <div className="absolute inset-0 bg-black opacity-25 cursor-pointer "></div>
-        <div className="mx-auto text-white z-10 self-center uppercase tracking-widest text-2xl">
+        <div className="mx-auto text-white z-10 self-center text-center uppercase tracking-widest text-lg md:text-2xl">
           {imageText}
         </div>
       </div>

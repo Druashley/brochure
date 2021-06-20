@@ -12,24 +12,25 @@ export default function productDetailData(product) {
         title: "Color options",
         mainParagraph:
           "We work with Scherwin-Williams and Benjamin Moore to meet all possible color needs. If the color exists then we can get it for you.",
-        secondParagraph: "Color match your house or color it anyway you want.",
+        secondParagraph:
+          "Color match your house or color your build something bold to stand out.",
         pictures: [
           {
             imgUrl: colorTwo,
             phrase:
-              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+              "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             id: 1,
           },
           {
             imgUrl: colorThree,
             phrase:
-              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+              "Elementum eu facilisis sed odio morbi quis commodo odio aenean.",
             id: 2,
           },
           {
             imgUrl: colorFour,
             phrase:
-              "Duis aute irure dolor in Duis aute irure dolor in  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+              "Viverra vitae congue eu consequat. Sed adipiscing diam donec adipiscing tristique risus. Sed id semper risus in. Eget nunc scelerisque viverra mauris in aliquam sem.",
             id: 3,
           },
           {

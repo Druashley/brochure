@@ -3,7 +3,7 @@ import React from "react";
 export default function Title() {
   return (
     <section className="text-gray-700 pt-12">
-      <div className="container flex flex-col items-center px-5 py-8 mx-auto">
+      <div className="container flex flex-col items-center px-5 py-2 mx-auto">
         <div className="flex flex-col w-full mb-12 text-left lg:text-center">
           <h2 className="mb-8 text-xs font-semibold tracking-widest text-black uppercase title-font">
             endless possibilities

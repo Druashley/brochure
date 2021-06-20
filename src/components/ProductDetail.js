@@ -18,7 +18,7 @@ export default function ProductDetail({ product }) {
               className="object-cover object-center rounded"
               alt="hero"
               loading="lazy"
-              src="https://dummyimage.com/720x600/F3F4F7/8693ac"
+              src={pictures[0].imgUrl}
             ></img>
           </div>
           <div className="flex flex-col items-start text-left lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16">
@@ -36,7 +36,7 @@ export default function ProductDetail({ product }) {
       </section>
       <div className="flex flex-wrap overflow-hidden container mx-auto justify-center">
         {pictures
-          ? pictures.map((picture) => {
+          ? pictures.reverse().map((picture) => {
               return (
                 <div className="md:m-4 flex flex-col" key={picture.id}>
                   <img
@@ -45,7 +45,7 @@ export default function ProductDetail({ product }) {
                     alt="blog"
                     key={picture.id}
                   ></img>
-                  <p className="border border-logo px-4 py-4 mb-4 rounded shadow-lg md:w-60 mx-auto">
+                  <p className="border border-logo px-4 py-4 mb-4 rounded shadow-lg md:w-96 mx-auto">
                     {picture.phrase}
                   </p>
                 </div>
