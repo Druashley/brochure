@@ -2,11 +2,13 @@ import React, { useEffect } from "react";
 import productDetailData from "../ProductDetailData";
 
 export default function ProductDetail({ product }) {
-  const { title, mainParagraph, secondParagraph } = productDetailData(product);
+  const { title, mainParagraph, secondParagraph, pictures } =
+    productDetailData(product);
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
   return (
     <div>
       <section>
@@ -32,35 +34,24 @@ export default function ProductDetail({ product }) {
           </div>
         </div>
       </section>
-      <div className="flex flex-wrap overflow-hidden container mx-auto">
-        <div className="md:m-4">
-          <img
-            className="object-cover object-center w-full mb-8 lg:h-48 md:h-36"
-            src="https://dummyimage.com/720x400/F3F4F7/8693ac"
-            alt="blog"
-          ></img>
-        </div>
-        <div className="md:m-4">
-          <img
-            className="object-cover object-center w-full mb-8 lg:h-48 md:h-36"
-            src="https://dummyimage.com/720x400/F3F4F7/8693ac"
-            alt="blog"
-          ></img>
-        </div>
-        <div className="md:m-4">
-          <img
-            className="object-cover object-center w-full mb-8 lg:h-48 md:h-36"
-            src="https://dummyimage.com/720x400/F3F4F7/8693ac"
-            alt="blog"
-          ></img>
-        </div>
-        <div className="md:m-4">
-          <img
-            className="object-cover object-center w-full mb-8 lg:h-48 md:h-36"
-            src="https://dummyimage.com/720x400/F3F4F7/8693ac"
-            alt="blog"
-          ></img>
-        </div>
+      <div className="flex flex-wrap overflow-hidden container mx-auto justify-center">
+        {pictures
+          ? pictures.map((picture) => {
+              return (
+                <div className="md:m-4 flex flex-col" key={picture.id}>
+                  <img
+                    className="object-cover object-center w-full mb-8 "
+                    src={picture.imgUrl}
+                    alt="blog"
+                    key={picture.id}
+                  ></img>
+                  <p className="border border-logo px-4 py-4 mb-4 rounded shadow-lg md:w-60 mx-auto">
+                    {picture.phrase}
+                  </p>
+                </div>
+              );
+            })
+          : ""}
       </div>
     </div>
   );
