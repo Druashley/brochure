@@ -1,4 +1,5 @@
 import GridGallery from "../components/GridGallery";
+import Title from "../components/Title";
 
 import shed from "../imgs/shed1.jpg";
 import windows from "../imgs/Windows.jpg";
@@ -33,5 +34,10 @@ export default function Gallery() {
     { imageUrl: weathervane, type: "weathervanes", url: "weathervane" },
   ];
 
-  return <GridGallery images={images} />;
+  return (
+    <div>
+      <Title />
+      <GridGallery images={images} />)
+    </div>
+  );
 }
