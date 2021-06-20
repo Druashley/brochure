@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import productDetailData from "../ProductDetailData";
 
 export default function ProductDetail({ product }) {
   const { title, mainParagraph, secondParagraph } = productDetailData(product);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <section>
