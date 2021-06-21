@@ -14,6 +14,7 @@ import deck from "../imgs/deck.jpg";
 import color from "../imgs/color.jpg";
 import siding from "../imgs/siding.jpg";
 import interior from "../imgs/interior.jpg";
+import roof from "../imgs/roof.jpg";
 
 import React from "react";
 
@@ -21,6 +22,7 @@ export default function Gallery() {
   const images = [
     { imageUrl: color, type: "color", url: "color" },
     { imageUrl: lofts, type: "lofts", url: "loft" },
+    { imageUrl: roof, type: "roofs", url: "roof" },
     { imageUrl: deck, type: "decks", url: "deck" },
     { imageUrl: doors, type: "doors", url: "door" },
     { imageUrl: shed, type: "skirts", url: "skirt" },

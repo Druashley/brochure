@@ -53,6 +53,9 @@ function App() {
         <Route path="/weathervane" exact>
           <ProductDetail product={"weathervane"} />
         </Route>
+        <Route path="/roof" exact>
+          <ProductDetail product={"roof"} />
+        </Route>
       </Switch>
     </div>
   );

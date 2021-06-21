@@ -145,7 +145,7 @@ export default function productDetailData(product) {
       return {
         title: "Skirt",
         mainParagraph:
-          "A pressure treated wood skirt can help reduce the likely hood of a critter making a home ",
+          "A pressure treated wood skirt can help reduce the likelihood of a critter making a home. ",
         secondParagraph: "Reduce the chance for critters to make a home.",
         pictures: [
           {
@@ -410,6 +410,40 @@ export default function productDetailData(product) {
     case "weathervane":
       return {
         title: "Weathervanes",
+        mainParagraph:
+          "Amet purus gravida quis blandit turpis cursus. Ligula ullamcorper malesuada proin libero nunc. Adipiscing bibendum est ultricies integer quis auctor elit. Scelerisque fermentum dui faucibus in ornare. Justo laoreet sit amet cursus sit. Semper eget duis at tellus at urna condimentum mattis.",
+        secondParagraph:
+          "Tempor nec feugiat nisl pretium fusce id velit. Nisl tincidunt eget nullam non nisi. ",
+        pictures: [
+          {
+            imgUrl: blankImgSrc,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 1,
+          },
+          {
+            imgUrl: blankImgSrc,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 2,
+          },
+          {
+            imgUrl: blankImgSrc,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 3,
+          },
+          {
+            imgUrl: blankImgSrc,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 4,
+          },
+        ],
+      };
+    case "roof":
+      return {
+        title: "roofing options",
         mainParagraph:
           "Amet purus gravida quis blandit turpis cursus. Ligula ullamcorper malesuada proin libero nunc. Adipiscing bibendum est ultricies integer quis auctor elit. Scelerisque fermentum dui faucibus in ornare. Justo laoreet sit amet cursus sit. Semper eget duis at tellus at urna condimentum mattis.",
         secondParagraph:
