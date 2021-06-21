@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/brochure/static/css/main.30738602.chunk.css",
-    "main.js": "/brochure/static/js/main.10bddad5.chunk.js",
-    "main.js.map": "/brochure/static/js/main.10bddad5.chunk.js.map",
+    "main.js": "/brochure/static/js/main.2324f1d0.chunk.js",
+    "main.js.map": "/brochure/static/js/main.2324f1d0.chunk.js.map",
     "runtime-main.js": "/brochure/static/js/runtime-main.42a27f46.js",
     "runtime-main.js.map": "/brochure/static/js/runtime-main.42a27f46.js.map",
     "static/js/2.9ba7a994.chunk.js": "/brochure/static/js/2.9ba7a994.chunk.js",
@@ -24,6 +24,7 @@
     "static/media/flowerboxes.98f2515a.jpg": "/brochure/static/media/flowerboxes.98f2515a.jpg",
     "static/media/interior.9440c3ec.jpg": "/brochure/static/media/interior.9440c3ec.jpg",
     "static/media/pegboards.9e5b60c4.jpg": "/brochure/static/media/pegboards.9e5b60c4.jpg",
+    "static/media/roof.b1daf34e.jpg": "/brochure/static/media/roof.b1daf34e.jpg",
     "static/media/shed1.17d1555b.jpg": "/brochure/static/media/shed1.17d1555b.jpg",
     "static/media/siding.9c0c8fa2.jpg": "/brochure/static/media/siding.9c0c8fa2.jpg",
     "static/media/weathervane.d71e5ef1.jpg": "/brochure/static/media/weathervane.d71e5ef1.jpg"
@@ -32,6 +33,6 @@
     "static/js/runtime-main.42a27f46.js",
     "static/js/2.9ba7a994.chunk.js",
     "static/css/main.30738602.chunk.css",
-    "static/js/main.10bddad5.chunk.js"
+    "static/js/main.2324f1d0.chunk.js"
   ]
 }
