@@ -13,30 +13,30 @@ export default function productDetailData(product) {
         mainParagraph:
           "We work with Scherwin-Williams and Benjamin Moore to meet all possible color needs. If the color exists then we can get it for you.",
         secondParagraph:
-          "Color match your house or color your build something bold to stand out.",
+          "Color match your house, or color your build something bold to stand out. ",
         pictures: [
           {
             imgUrl: colorTwo,
             phrase:
-              "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+              "This is a Deluxe 8' x 12' x 8' Shed. Options include custom paint, windows with grids, and flowerboxes.  ",
             id: 1,
           },
           {
             imgUrl: colorThree,
             phrase:
-              "Elementum eu facilisis sed odio morbi quis commodo odio aenean.",
+              "This is a Premium 8' x 10' x 7' Shed. Options include custom paint, a pressure treated wood skirt, 3' doouble doors, and an overhang.",
             id: 2,
           },
           {
             imgUrl: colorFour,
             phrase:
-              "Viverra vitae congue eu consequat. Sed adipiscing diam donec adipiscing tristique risus. Sed id semper risus in. Eget nunc scelerisque viverra mauris in aliquam sem.",
+              "This is a Premium 12' x 5' x 6' Lean 2. Options include custom paint, ramp, and 3' double doors.",
             id: 3,
           },
           {
             imgUrl: colorFive,
             phrase:
-              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+              "This is a Premium 12' x 16' 8' Mini Barn. Options include a sliding window in the gable peak, 3' double doors, a ramp, an overhang, custom paint, and a pressure treated wood skirt.",
             id: 4,
           },
         ],
