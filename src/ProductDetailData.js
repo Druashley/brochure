@@ -36,7 +36,7 @@ export default function productDetailData(product) {
           {
             imgUrl: colorFive,
             phrase:
-              "This is a Premium 12' x 16' 8' Mini Barn. Options include a sliding window in the gable peak, 3' double doors, a ramp, an overhang, custom paint, and a pressure treated wood skirt.",
+              "This is a Premium 12' x 16' x 8' Mini Barn. Options include a sliding window in the gable peak, 3' double doors, a ramp, an overhang, custom paint, and a pressure treated wood skirt.",
             id: 4,
           },
         ],
