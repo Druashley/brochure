@@ -20,24 +20,28 @@ export default function productDetailData(product) {
             phrase:
               "This is a Deluxe 8' x 12' x 8' Shed. Options include custom paint, windows with grids, and flowerboxes.  ",
             id: 1,
+            buildId: "19-144",
           },
           {
             imgUrl: colorThree,
             phrase:
               "This is a Premium 8' x 10' x 7' Shed. Options include custom paint, a pressure treated wood skirt, 3' doouble doors, and an overhang.",
             id: 2,
+            buildId: "19-162",
           },
           {
             imgUrl: colorFour,
             phrase:
               "This is a Premium 12' x 5' x 6' Lean 2. Options include custom paint, ramp, and 3' double doors.",
             id: 3,
+            buildId: "00-000",
           },
           {
             imgUrl: colorFive,
             phrase:
               "This is a Premium 12' x 16' x 8' Mini Barn. Options include a sliding window in the gable peak, 3' double doors, a ramp, an overhang, custom paint, and a pressure treated wood skirt.",
             id: 4,
+            buildId: "00-000",
           },
         ],
       };
