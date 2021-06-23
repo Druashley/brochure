@@ -3,6 +3,16 @@ import colorThree from "./imgs/colorThree.jpg";
 import colorFour from "./imgs/colorFour.jpg";
 import colorFive from "./imgs/colorFive.jpg";
 
+import charcoalGrey from "./imgs/product/charcoalGrey.jpg";
+import agedRedWood from "./imgs/product/agedRedWood.jpg";
+import driftwood from "./imgs/product/driftwood.jpg";
+import dualblack from "./imgs/product/dualBlack.jpg";
+import dualBrown from "./imgs/product/dualBrown.jpg";
+import dualGrey from "./imgs/product/dualGrey.jpg";
+import earthToneCedar from "./imgs/product/earthToneCedar.jpg";
+import harvardSlate from "./imgs/product/harvardSlate.jpg";
+import weatherWood from "./imgs/product/weatherwood.jpg";
+
 export default function productDetailData(product) {
   const blankImgSrc = "https://dummyimage.com/720x600/F3F4F7/8693ac";
 
@@ -449,33 +459,71 @@ export default function productDetailData(product) {
       return {
         title: "roofing options",
         mainParagraph:
-          "Amet purus gravida quis blandit turpis cursus. Ligula ullamcorper malesuada proin libero nunc. Adipiscing bibendum est ultricies integer quis auctor elit. Scelerisque fermentum dui faucibus in ornare. Justo laoreet sit amet cursus sit. Semper eget duis at tellus at urna condimentum mattis.",
-        secondParagraph:
-          "Tempor nec feugiat nisl pretium fusce id velit. Nisl tincidunt eget nullam non nisi. ",
+          "We offer IKO Cambridge as our goto option for roofing. Metal options are a popular choice as well. ",
+        secondParagraph: "IKO Cambridge colored Shingles or a Metal roof",
         pictures: [
           {
-            imgUrl: blankImgSrc,
+            imgUrl: dualblack,
             phrase:
-              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+              "Perfect Paring: Grey or neutral siding or stone; white trim.",
             id: 1,
+            buildId: "Dual Black",
           },
           {
-            imgUrl: blankImgSrc,
+            imgUrl: charcoalGrey,
             phrase:
-              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+              "Perfect Paring: Log, beige stone or brick (especially red) facings; brown trim.",
             id: 2,
+            buildId: "Charcoal Grey",
           },
           {
-            imgUrl: blankImgSrc,
+            imgUrl: agedRedWood,
             phrase:
-              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+              "Perfect Pairing: Log, beige stone or brick (especially red) facings; brown trim.",
             id: 3,
+            buildId: "Aged Redwood",
           },
           {
-            imgUrl: blankImgSrc,
+            imgUrl: driftwood,
             phrase:
-              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+              "Perfect Pairing: Log, wood siding, stone or brick facings; brown or black trim",
             id: 4,
+            buildId: "Driftwood",
+          },
+          {
+            imgUrl: dualBrown,
+            phrase:
+              "Perfect Pairing: Log, beige stone or brick (especially red) facings; brown trim.",
+            id: 5,
+            buildId: "Dual Brown",
+          },
+          {
+            imgUrl: dualGrey,
+            phrase:
+              "Perfect Pairing: White or grey stone, brick or siding; black, white or grey trim.",
+            id: 6,
+            buildId: "Dual Grey",
+          },
+          {
+            imgUrl: earthToneCedar,
+            phrase:
+              "Perfect Pairing: Log, beige stone or brick facings; brown trim.",
+            id: 7,
+            buildId: "Earthtone Cedar",
+          },
+          {
+            imgUrl: harvardSlate,
+            phrase:
+              "Perfect Pairing: White or grey stone, brick or siding; black, white or grey trim.",
+            id: 8,
+            buildId: "Harvard Slate",
+          },
+          {
+            imgUrl: weatherWood,
+            phrase:
+              "Perfect Pairing: Log, beige stone or brick (especially red) facings; brown trim.",
+            id: 9,
+            buildId: "Weatherwood",
           },
         ],
       };
