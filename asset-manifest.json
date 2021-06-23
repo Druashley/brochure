@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/brochure/static/css/main.cc7459cb.chunk.css",
-    "main.js": "/brochure/static/js/main.71f9996c.chunk.js",
-    "main.js.map": "/brochure/static/js/main.71f9996c.chunk.js.map",
+    "main.css": "/brochure/static/css/main.223a9ba2.chunk.css",
+    "main.js": "/brochure/static/js/main.9debaec8.chunk.js",
+    "main.js.map": "/brochure/static/js/main.9debaec8.chunk.js.map",
     "runtime-main.js": "/brochure/static/js/runtime-main.42a27f46.js",
     "runtime-main.js.map": "/brochure/static/js/runtime-main.42a27f46.js.map",
     "static/js/2.9ba7a994.chunk.js": "/brochure/static/js/2.9ba7a994.chunk.js",
     "static/js/2.9ba7a994.chunk.js.map": "/brochure/static/js/2.9ba7a994.chunk.js.map",
     "index.html": "/brochure/index.html",
-    "static/css/main.cc7459cb.chunk.css.map": "/brochure/static/css/main.cc7459cb.chunk.css.map",
+    "static/css/main.223a9ba2.chunk.css.map": "/brochure/static/css/main.223a9ba2.chunk.css.map",
     "static/js/2.9ba7a994.chunk.js.LICENSE.txt": "/brochure/static/js/2.9ba7a994.chunk.js.LICENSE.txt",
     "static/media/Lofts.594107a5.jpg": "/brochure/static/media/Lofts.594107a5.jpg",
     "static/media/Ramps.384f7f31.jpg": "/brochure/static/media/Ramps.384f7f31.jpg",
     "static/media/Shelves.3fec4aef.jpg": "/brochure/static/media/Shelves.3fec4aef.jpg",
     "static/media/Windows.c261e864.jpg": "/brochure/static/media/Windows.c261e864.jpg",
+    "static/media/agedRedWood.382a7fcd.jpg": "/brochure/static/media/agedRedWood.382a7fcd.jpg",
+    "static/media/charcoalGrey.9f627c71.jpg": "/brochure/static/media/charcoalGrey.9f627c71.jpg",
     "static/media/color.766c48be.jpg": "/brochure/static/media/color.766c48be.jpg",
     "static/media/colorFive.a0093cc5.jpg": "/brochure/static/media/colorFive.a0093cc5.jpg",
     "static/media/colorFour.ce576345.jpg": "/brochure/static/media/colorFour.ce576345.jpg",
@@ -21,18 +23,25 @@
     "static/media/colortwo.04b12d73.jpg": "/brochure/static/media/colortwo.04b12d73.jpg",
     "static/media/deck.7aeeda0a.jpg": "/brochure/static/media/deck.7aeeda0a.jpg",
     "static/media/doors.6ed1be29.jpg": "/brochure/static/media/doors.6ed1be29.jpg",
+    "static/media/driftwood.c77987da.jpg": "/brochure/static/media/driftwood.c77987da.jpg",
+    "static/media/dualBlack.15504f2c.jpg": "/brochure/static/media/dualBlack.15504f2c.jpg",
+    "static/media/dualBrown.c01510f3.jpg": "/brochure/static/media/dualBrown.c01510f3.jpg",
+    "static/media/dualGrey.7a8afd23.jpg": "/brochure/static/media/dualGrey.7a8afd23.jpg",
+    "static/media/earthToneCedar.25e54e97.jpg": "/brochure/static/media/earthToneCedar.25e54e97.jpg",
     "static/media/flowerboxes.98f2515a.jpg": "/brochure/static/media/flowerboxes.98f2515a.jpg",
+    "static/media/harvardSlate.25177b39.jpg": "/brochure/static/media/harvardSlate.25177b39.jpg",
     "static/media/interior.9440c3ec.jpg": "/brochure/static/media/interior.9440c3ec.jpg",
     "static/media/pegboards.9e5b60c4.jpg": "/brochure/static/media/pegboards.9e5b60c4.jpg",
     "static/media/roof.b1daf34e.jpg": "/brochure/static/media/roof.b1daf34e.jpg",
     "static/media/shed1.17d1555b.jpg": "/brochure/static/media/shed1.17d1555b.jpg",
     "static/media/siding.9c0c8fa2.jpg": "/brochure/static/media/siding.9c0c8fa2.jpg",
-    "static/media/weathervane.d71e5ef1.jpg": "/brochure/static/media/weathervane.d71e5ef1.jpg"
+    "static/media/weathervane.d71e5ef1.jpg": "/brochure/static/media/weathervane.d71e5ef1.jpg",
+    "static/media/weatherwood.2033d668.jpg": "/brochure/static/media/weatherwood.2033d668.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.42a27f46.js",
     "static/js/2.9ba7a994.chunk.js",
-    "static/css/main.cc7459cb.chunk.css",
-    "static/js/main.71f9996c.chunk.js"
+    "static/css/main.223a9ba2.chunk.css",
+    "static/js/main.9debaec8.chunk.js"
   ]
 }
