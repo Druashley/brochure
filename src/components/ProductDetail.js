@@ -14,6 +14,7 @@ export default function ProductDetail({ product }) {
 
   const returnHome = () => {
     history.push("/");
+    window.scrollTo(0, 0);
   };
 
   return (

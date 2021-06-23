@@ -21,14 +21,14 @@ import React from "react";
 export default function Gallery() {
   const images = [
     { imageUrl: color, type: "color", url: "color" },
-    { imageUrl: lofts, type: "lofts", url: "loft" },
     { imageUrl: roof, type: "roofs", url: "roof" },
+    { imageUrl: windows, type: "windows", url: "windows" },
+    { imageUrl: lofts, type: "lofts", url: "loft" },
     { imageUrl: deck, type: "decks", url: "deck" },
     { imageUrl: doors, type: "doors", url: "door" },
     { imageUrl: shed, type: "skirts", url: "skirt" },
     { imageUrl: siding, type: "siding", url: "siding" },
     { imageUrl: interior, type: "interior", url: "interior" },
-    { imageUrl: windows, type: "windows", url: "windows" },
     { imageUrl: shelves, type: "shelves & benches", url: "shelves" },
     { imageUrl: ramps, type: "ramps", url: "ramps" },
     { imageUrl: flowerboxes, type: "flower boxes", url: "flowerboxes" },
