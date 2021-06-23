@@ -459,7 +459,7 @@ export default function productDetailData(product) {
       return {
         title: "roofing options",
         mainParagraph:
-          "We offer IKO Cambridge as our goto option for roofing. Metal options are a popular choice as well. ",
+          "We offer IKO Cambridge as our go to option for roofing. Metal options are a popular choice as well. ",
         secondParagraph: "IKO Cambridge colored Shingles or a Metal roof",
         pictures: [
           {
