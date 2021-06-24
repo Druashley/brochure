@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import productDetailData from "../ProductDetailData";
+import {LazyImage} from "./LazyImage";
 
 export default function ProductDetail({ product }) {
   const { title, mainParagraph, secondParagraph, pictures } =
@@ -48,12 +49,13 @@ export default function ProductDetail({ product }) {
               return (
                 <div className="md:m-4 flex flex-col" key={picture.id}>
                   <div className="relative">
-                    <img
+                    {/* <img
                       className="object-cover object-center w-full mb-8"
                       src={picture.imgUrl}
                       alt="blog"
                       key={picture.id}
-                    ></img>
+                    ></img> */}
+                    <LazyImage src={picture.imgUrl} alt="blog"/>
                     <div className=" absolute right-2 bottom-0 text-gray-600 flex md:right-0">
                       <h2>{picture.buildId}</h2>
                       <svg
