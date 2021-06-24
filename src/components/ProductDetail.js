@@ -55,7 +55,7 @@ export default function ProductDetail({ product }) {
                       alt="blog"
                       key={picture.id}
                     ></img> */}
-                    <LazyImage src={picture.imgUrl} alt="blog"/>
+                    <LazyImage src={picture.imgUrl} alt={picture.imgUrl}/>
                     <div className=" absolute right-2 bottom-0 text-gray-600 flex md:right-0">
                       <h2>{picture.buildId}</h2>
                       <svg

@@ -1,11 +1,7 @@
 import React, { useState, useEffect } from 'react'
-//import styled from 'styled-components'
 
-// const Image = styled.img`
-//   display: block;
-//   height: 100px;
-//   width: 100px;
-// `
+
+
 
 const placeHolder =
   'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII='
@@ -13,6 +9,8 @@ const placeHolder =
 export const LazyImage = ({ src, alt }) => {
   const [imageSrc, setImageSrc] = useState(placeHolder)
   const [imageRef, setImageRef] = useState()
+
+
 
   useEffect(() => {
     let observer
@@ -52,5 +50,5 @@ export const LazyImage = ({ src, alt }) => {
     }
   },[imageSrc, imageRef, src])
 
-  return <img className="object-cover object-center w-full mb-8" ref={setImageRef} src={imageSrc} alt={alt} />
+  return <img className="object-cover object-center w-full mb-8 transform " ref={setImageRef} src={imageSrc} alt={alt} />
 }
