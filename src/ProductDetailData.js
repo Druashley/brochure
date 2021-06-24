@@ -1,8 +1,10 @@
+//color page imports
 import colorTwo from "./imgs/colortwo.jpg";
 import colorThree from "./imgs/colorThree.jpg";
 import colorFour from "./imgs/colorFour.jpg";
 import colorFive from "./imgs/colorFive.jpg";
 
+//roofing imports
 import charcoalGrey from "./imgs/product/charcoalGrey.jpg";
 import agedRedWood from "./imgs/product/agedRedWood.jpg";
 import driftwood from "./imgs/product/driftwood.jpg";
@@ -12,6 +14,8 @@ import dualGrey from "./imgs/product/dualGrey.jpg";
 import earthToneCedar from "./imgs/product/earthToneCedar.jpg";
 import harvardSlate from "./imgs/product/harvardSlate.jpg";
 import weatherWood from "./imgs/product/weatherwood.jpg";
+import tabBlack from "./imgs/product/3tabBlack.jpg";
+import tabGrey from "./imgs/product/3tabGrey.jpg";
 
 export default function productDetailData(product) {
   const blankImgSrc = "https://dummyimage.com/720x600/F3F4F7/8693ac";
@@ -44,14 +48,14 @@ export default function productDetailData(product) {
             phrase:
               "This is a Premium 12' x 5' x 6' Lean 2. Options include custom paint, ramp, and 3' double doors.",
             id: 3,
-            buildId: "00-000",
+            buildId: "20-236",
           },
           {
             imgUrl: colorFive,
             phrase:
               "This is a Premium 12' x 16' x 8' Mini Barn. Options include a sliding window in the gable peak, 3' double doors, a ramp, an overhang, custom paint, and a pressure treated wood skirt.",
             id: 4,
-            buildId: "00-000",
+            buildId: "20-129",
           },
         ],
       };
@@ -459,71 +463,84 @@ export default function productDetailData(product) {
       return {
         title: "roofing options",
         mainParagraph:
-          "We offer IKO Cambridge as our go to option for roofing. Metal options are a popular choice as well. ",
-        secondParagraph: "IKO Cambridge colored Shingles or a Metal roof",
+          "Our basic option for roofing is 30 year 3-tab asphalt roofing shingles in black or light grey. We also offer IKO Cambridge dimensional roofing as our go to option for upgrading the look of a roof. The dimensional roofing comes standard in our Deluxe and Premium models. Custom metal roofing is avilabile as well. ",
+        secondParagraph:
+          "3-Tab Asphalt, IKO Cambridge dimensional Shingles, or Metal roofs",
         pictures: [
           {
             imgUrl: dualblack,
             phrase:
               "Perfect Paring: Grey or neutral siding or stone; white trim.",
             id: 1,
-            buildId: "Dual Black",
+            buildId: "IKO Cambridge: Dual Black",
           },
           {
             imgUrl: charcoalGrey,
             phrase:
               "Perfect Paring: Log, beige stone or brick (especially red) facings; brown trim.",
             id: 2,
-            buildId: "Charcoal Grey",
+            buildId: "IKO Cambridge: Charcoal Grey",
           },
           {
             imgUrl: agedRedWood,
             phrase:
               "Perfect Pairing: Log, beige stone or brick (especially red) facings; brown trim.",
             id: 3,
-            buildId: "Aged Redwood",
+            buildId: "IKO Cambridge: Aged Redwood",
           },
           {
             imgUrl: driftwood,
             phrase:
               "Perfect Pairing: Log, wood siding, stone or brick facings; brown or black trim",
             id: 4,
-            buildId: "Driftwood",
+            buildId: "IKO Cambridge: Driftwood",
           },
           {
             imgUrl: dualBrown,
             phrase:
               "Perfect Pairing: Log, beige stone or brick (especially red) facings; brown trim.",
             id: 5,
-            buildId: "Dual Brown",
+            buildId: "IKO Cambridge: Dual Brown",
           },
           {
             imgUrl: dualGrey,
             phrase:
               "Perfect Pairing: White or grey stone, brick or siding; black, white or grey trim.",
             id: 6,
-            buildId: "Dual Grey",
+            buildId: "IKO Cambridge: Dual Grey",
           },
           {
             imgUrl: earthToneCedar,
             phrase:
               "Perfect Pairing: Log, beige stone or brick facings; brown trim.",
             id: 7,
-            buildId: "Earthtone Cedar",
+            buildId: "IKO Cambridge: Earthtone Cedar",
           },
           {
             imgUrl: harvardSlate,
             phrase:
               "Perfect Pairing: White or grey stone, brick or siding; black, white or grey trim.",
             id: 8,
-            buildId: "Harvard Slate",
+            buildId: "IKO Cambridge: Harvard Slate",
           },
           {
             imgUrl: weatherWood,
             phrase:
               "Perfect Pairing: Log, beige stone or brick (especially red) facings; brown trim.",
             id: 9,
-            buildId: "Weatherwood",
+            buildId: "IKO Cambridge: Weatherwood",
+          },
+          {
+            imgUrl: tabBlack,
+            phrase: "Standard color option for any of our sheds.",
+            id: 10,
+            buildId: "3-Tab Black",
+          },
+          {
+            imgUrl: tabGrey,
+            phrase: "Standard color option for any of our sheds.",
+            id: 11,
+            buildId: "3-Tab Grey",
           },
         ],
       };
