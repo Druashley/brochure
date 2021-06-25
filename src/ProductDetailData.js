@@ -17,6 +17,8 @@ import weatherWood from "./imgs/product/weatherwood.jpg";
 import tabBlack from "./imgs/product/3tabBlack.jpg";
 import tabGrey from "./imgs/product/3tabGrey.jpg";
 
+//barns
+
 export default function productDetailData(product) {
   const blankImgSrc = "https://dummyimage.com/720x600/F3F4F7/8693ac";
 
