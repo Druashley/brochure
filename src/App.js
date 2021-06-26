@@ -56,6 +56,12 @@ function App() {
         <Route path="/roof" exact>
           <ProductDetail product={"roof"} />
         </Route>
+        <Route path="/barn" exact>
+          <ProductDetail product={"barns"} />
+        </Route>
+        <Route path="/shed" exact>
+          <ProductDetail product={"sheds"} />
+        </Route>
       </Switch>
     </div>
   );

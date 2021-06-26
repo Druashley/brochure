@@ -11,15 +11,19 @@ import flowerboxes from "../imgs/flowerboxes.jpg";
 import pegboard from "../imgs/pegboards.jpg";
 import weathervane from "../imgs/weathervane.jpg";
 import deck from "../imgs/deck.jpg";
-import color from "../imgs/color.jpg";
+import color from "../imgs/barns/19-211-PB081206.JPG";
 import siding from "../imgs/siding.jpg";
 import interior from "../imgs/interior.jpg";
 import roof from "../imgs/roof.jpg";
+import barn from "../imgs/barns/19-220-DB121608.jpg";
+import shedMain from "../imgs/sheds/19-193-DS121208.jpg";
 
 import React from "react";
 
 export default function Gallery() {
   const images = [
+    { imageUrl: shedMain, type: "sheds", url: "shed" },
+    { imageUrl: barn, type: "barns", url: "barn" },
     { imageUrl: color, type: "color", url: "color" },
     { imageUrl: roof, type: "roofs", url: "roof" },
     { imageUrl: windows, type: "windows", url: "windows" },
