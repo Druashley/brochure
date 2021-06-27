@@ -52,7 +52,7 @@ function GridGalleryCard({ imageUrl, show, imageText, url }) {
       }`}
     >
       <div
-        className="absolute inset-0 z-10 flex transition duration-200 ease-in hover:opacity-0 "
+        className="absolute inset-0 z-10 flex transition duration-200 ease-in md:hover:opacity-0 "
         onClick={() => displayProductDetail(url)}
       >
         <div className="absolute inset-0 bg-black opacity-25 cursor-pointer "></div>

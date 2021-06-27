@@ -887,6 +887,79 @@ export default function productDetailData(product) {
           },
         ],
       };
+    case "coops":
+      return {
+        title: "Chicken Coops",
+        mainParagraph:
+          "Great for anyone who’s looking to give their chickens a great looking and functional home!",
+        secondParagraph: "Protect your chickens",
+        pictures: [
+          {
+            imgUrl: coop19334,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 1,
+            buildId: "19-334",
+          },
+          {
+            imgUrl: coop19163,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 2,
+            buildId: "19-163",
+          },
+          {
+            imgUrl: coop19117,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 3,
+            buildId: "19-117",
+          },
+          {
+            imgUrl: coop19009,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 4,
+            buildId: "19-009",
+          },
+          {
+            imgUrl: coop19012,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 5,
+            buildId: "19-012",
+          },
+          {
+            imgUrl: coop19084,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 6,
+            buildId: "19-084",
+          },
+
+          {
+            imgUrl: coop19093,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 7,
+            buildId: "19-093",
+          },
+          {
+            imgUrl: coop19361,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 8,
+            buildId: "19-361",
+          },
+          {
+            imgUrl: coop19398,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 9,
+            buildId: "19-398",
+          },
+        ],
+      };
     default:
       break;
   }

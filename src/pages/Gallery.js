@@ -17,6 +17,7 @@ import interior from "../imgs/interior.jpg";
 import roof from "../imgs/roof.jpg";
 import barn from "../imgs/barns/19-220-DB121608.jpg";
 import shedMain from "../imgs/sheds/19-193-DS121208.jpg";
+import coop from "../imgs/coops/19-334-CC86L.jpg";
 
 import React from "react";
 
@@ -24,6 +25,7 @@ export default function Gallery() {
   const images = [
     { imageUrl: shedMain, type: "sheds", url: "shed" },
     { imageUrl: barn, type: "barns", url: "barn" },
+    { imageUrl: coop, type: "coops", url: "coop" },
     { imageUrl: color, type: "color", url: "color" },
     { imageUrl: roof, type: "roofs", url: "roof" },
     { imageUrl: windows, type: "windows", url: "windows" },
