@@ -14,16 +14,18 @@ import deck from "../imgs/deck.jpg";
 import color from "../imgs/barns/19-211-PB081206.JPG";
 import siding from "../imgs/siding.jpg";
 import interior from "../imgs/interior.jpg";
-import roof from "../imgs/roof.jpg";
+import roof from "../imgs/lean2/19-098-DL120606.JPG";
 import barn from "../imgs/barns/19-220-DB121608.jpg";
 import shedMain from "../imgs/sheds/19-193-DS121208.jpg";
 import coop from "../imgs/coops/19-334-CC86L.jpg";
+import lean from "../imgs/lean2/19-388-DL100406.jpg";
 
 import React from "react";
 
 export default function Gallery() {
   const images = [
     { imageUrl: shedMain, type: "sheds", url: "shed" },
+    { imageUrl: lean, type: "lean 2s", url: "lean" },
     { imageUrl: barn, type: "barns", url: "barn" },
     { imageUrl: coop, type: "coops", url: "coop" },
     { imageUrl: color, type: "color", url: "color" },
@@ -39,7 +41,6 @@ export default function Gallery() {
     { imageUrl: ramps, type: "ramps", url: "ramps" },
     { imageUrl: flowerboxes, type: "flower boxes", url: "flowerboxes" },
     { imageUrl: pegboard, type: "pegboard", url: "pegboard" },
-    { imageUrl: weathervane, type: "weathervanes", url: "weathervane" },
   ];
 
   return (

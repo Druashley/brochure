@@ -522,48 +522,20 @@ export default function productDetailData(product) {
           },
         ],
       };
-    case "weathervane":
-      return {
-        title: "Weathervanes",
-        mainParagraph:
-          "Amet purus gravida quis blandit turpis cursus. Ligula ullamcorper malesuada proin libero nunc. Adipiscing bibendum est ultricies integer quis auctor elit. Scelerisque fermentum dui faucibus in ornare. Justo laoreet sit amet cursus sit. Semper eget duis at tellus at urna condimentum mattis.",
-        secondParagraph:
-          "Tempor nec feugiat nisl pretium fusce id velit. Nisl tincidunt eget nullam non nisi. ",
-        pictures: [
-          {
-            imgUrl: blankImgSrc,
-            phrase:
-              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-            id: 1,
-          },
-          {
-            imgUrl: blankImgSrc,
-            phrase:
-              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-            id: 2,
-          },
-          {
-            imgUrl: blankImgSrc,
-            phrase:
-              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-            id: 3,
-          },
-          {
-            imgUrl: blankImgSrc,
-            phrase:
-              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-            id: 4,
-          },
-        ],
-      };
     case "roof":
       return {
         title: "roofing options",
         mainParagraph:
           "Our basic option for roofing is 30 year 3-tab asphalt roofing shingles in black or light grey. We also offer IKO Cambridge dimensional roofing as our go to option for upgrading the look of a roof. The dimensional roofing comes standard in our Deluxe and Premium models. Custom metal roofing is avilabile as well. ",
         secondParagraph:
-          "3-Tab Asphalt, IKO Cambridge dimensional Shingles, or Metal roofs",
+          "3-Tab Asphalt, IKO Cambridge dimensional shingles, or metal roofs",
         pictures: [
+          {
+            imgUrl: lean190981,
+            phrase: "Metal roofing on a Lean 2.",
+            id: 12,
+            buildId: "19-098",
+          },
           {
             imgUrl: dualblack,
             phrase:
@@ -957,6 +929,142 @@ export default function productDetailData(product) {
               "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
             id: 9,
             buildId: "19-398",
+          },
+        ],
+      };
+    case "lean":
+      return {
+        title: "Lean 2s",
+        mainParagraph:
+          "The definition of a LEAN 2: “a building sharing one wall with a larger building, and having a roof that leans against that wall, a temporary shelter, either supported or freestanding.” I ‘lean 2’ the idea that it’s much more than a temporary shelter, it’s more like a permanent modern masterpiece. We literally start with this base model and can turn it into whatever you want it to be. Something wonderful is about to happen.",
+        secondParagraph: "Lean into the possibilities.",
+        pictures: [
+          {
+            imgUrl: lean19388,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 1,
+            buildId: "19-388",
+          },
+          {
+            imgUrl: lean19030,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 2,
+            buildId: "19-030",
+          },
+          {
+            imgUrl: lean19031,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 3,
+            buildId: "19-031",
+          },
+          {
+            imgUrl: lean19051,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 4,
+            buildId: "19-051",
+          },
+          {
+            imgUrl: lean19072,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 5,
+            buildId: "19-072",
+          },
+          {
+            imgUrl: lean190981,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 6,
+            buildId: "19-098",
+          },
+
+          {
+            imgUrl: lean19099,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 7,
+            buildId: "19-099",
+          },
+          {
+            imgUrl: lean19120,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 8,
+            buildId: "19-120",
+          },
+          {
+            imgUrl: lean19132,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 9,
+            buildId: "19-132",
+          },
+          {
+            imgUrl: lean19173,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 10,
+            buildId: "19-173",
+          },
+          {
+            imgUrl: lean19204,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 11,
+            buildId: "19-204",
+          },
+          {
+            imgUrl: lean19296,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 12,
+            buildId: "19-296",
+          },
+          {
+            imgUrl: lean19302,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 13,
+            buildId: "19-302",
+          },
+          {
+            imgUrl: lean19303,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 14,
+            buildId: "19-303",
+          },
+          {
+            imgUrl: lean19328,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 15,
+            buildId: "19-328",
+          },
+          {
+            imgUrl: lean193281,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 16,
+            buildId: "19-328",
+          },
+          {
+            imgUrl: lean19329,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 17,
+            buildId: "19-329",
+          },
+          {
+            imgUrl: lean19386,
+            phrase:
+              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            id: 18,
+            buildId: "19-386",
           },
         ],
       };

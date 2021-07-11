@@ -50,9 +50,7 @@ function App() {
         <Route path="/pegboard" exact>
           <ProductDetail product={"pegboard"} />
         </Route>
-        <Route path="/weathervane" exact>
-          <ProductDetail product={"weathervane"} />
-        </Route>
+
         <Route path="/roof" exact>
           <ProductDetail product={"roof"} />
         </Route>
@@ -64,6 +62,9 @@ function App() {
         </Route>
         <Route path="/coop" exact>
           <ProductDetail product={"coops"} />
+        </Route>
+        <Route path="/lean" exact>
+          <ProductDetail product={"lean"} />
         </Route>
       </Switch>
     </div>
